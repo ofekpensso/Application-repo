@@ -25,6 +25,8 @@ pipeline {
                 script {
                     echo '>>> Running Unit Tests...'
                     sh 'pip install --no-cache-dir -r requirements.txt'
+                     
+                    sh 'pip install pytest'
                     sh 'pytest --junitxml=test-reports/results.xml'
                 }
             }
