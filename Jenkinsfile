@@ -3,8 +3,8 @@ pipeline {
 
     environment {
         AWS_REGION = 'us-east-1'
-        ECR_REGISTRY = '992382545251.dkr.ecr.us-east-1.amazonaws.com/ofekpenso' 
-        APP_NAME = 'calculator-app'
+        ECR_REGISTRY = '992382545251.dkr.ecr.us-east-1.amazonaws.com' 
+        APP_NAME = 'ofekpenso'
     }
 
     stages {
